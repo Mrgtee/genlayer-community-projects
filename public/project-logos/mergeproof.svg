@@ -1,0 +1,11 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" fill="#0f172a"/>
+  
+  <g transform="translate(14, 14)">
+    <rect width="32" height="32" rx="8" fill="#60a5fa"></rect>
+    <path d="M8 16L14 10L20 16L14 22L8 16Z" fill="white" fill-opacity="0.9"></path>
+    <path d="M14 16L20 10L26 16L20 22L14 16Z" fill="white" fill-opacity="0.6"></path>
+  </g>
+
+  <text x="58" y="38" fill="#e2e8f0" font-family="sans-serif" font-weight="600" font-size="22px">MergeProof</text>
+</svg>
