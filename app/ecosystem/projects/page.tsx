@@ -9,6 +9,7 @@ export default function Page() {
 
       <main className="min-h-screen bg-[#ffffff] text-black">
 
+        {/* HERO SECTION */}
         <section className="mx-auto max-w-7xl px-6 pt-28 pb-16">
           <p className="text-sm uppercase tracking-[0.18em] text-neutral-500">
             Ecosystem
@@ -24,11 +25,24 @@ export default function Page() {
           </p>
         </section>
 
+        {/* PROJECT GRID */}
         <section className="mx-auto max-w-7xl px-6 pb-20">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {communityProjects.map((project) => (
               <CommunityProjectCard key={project.slug} project={project} />
             ))}
+          </div>
+
+          {/* SUBMIT BUTTON */}
+          <div className="mt-16 flex justify-center">
+            <a
+              href="https://github.com/Mrgtee/genlayer-community-projects/fork"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-black px-6 py-3 text-sm font-medium hover:bg-black hover:text-white"
+            >
+              Submit Your Project
+            </a>
           </div>
         </section>
 

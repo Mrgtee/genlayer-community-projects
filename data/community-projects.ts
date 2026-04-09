@@ -1,3 +1,6 @@
+// This file can later be replaced with an API or CMS.
+// For now, it acts as a static registry of community projects.
+
 export type CommunityProject = {
   name: string;
   slug: string;
